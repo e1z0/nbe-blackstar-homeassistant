@@ -1,0 +1,17 @@
+[Unit]
+Description=NBE Pellet burner MQTT bridge
+After=network.target auditd.service ssh.service
+
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/nbe
+ExecStart=/usr/bin/python3 /opt/nbe/nbe.py
+Restart=always
+RestartSec=10
+KillMode=process
+
+
+[Install]
+WantedBy=multi-user.target

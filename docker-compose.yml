@@ -1,0 +1,20 @@
+version: '3.0'
+services:
+    nbe:
+        container_name: nbe
+        image: nulldevil/nbe:aarch64
+        hostname: nbe
+        restart: unless-stopped
+        environment:
+           NBE_SERIAL: "xxxx"
+           NBE_IP: "xxxxx"
+           NBE_PORT: "8483"
+           NBE_PASS: "123456789"
+           MQTT_IP: "192.168.1.x"
+           MQTT_PORT: "1883"
+           MQTT_USER: "nbe_mqtt_pass"
+           MQTT_PASS: "nbe_mqtt_pass"
+           MQTT_CLIENT_NAME: "pellet-burner"
+           REFRESH_RATE: 10
+           DEBUG: true
+           HA_PREFIX: "homeassistant"

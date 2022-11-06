@@ -1,0 +1,14 @@
+{
+"nbe_serial": "112233",
+"nbe_ip": "192.168.1.100",
+"nbe_port": 8483,
+"nbe_pass": "123456789",
+"mqtt_server": "192.168.1.1",
+"mqtt_port": 1883,
+"mqtt_user": "nbe-client",
+"mqtt_pass": "nbe-pass",
+"mqtt_client_name": "pellet-burner",
+"debug": false,
+"refresh_rate": 10,
+"ha_prefix": "homeassistant"
+}
