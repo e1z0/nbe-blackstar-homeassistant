@@ -1,6 +1,6 @@
 # NBE Blackstar+/RTB Pellet Burners Home Assistant Integration
 
-<img src="https://github.com/e1z0/nbe-blackstar-homeassistant/raw/master/pics/nbe1.png" width=45% height=45%>
+<img src="https://github.com/e1z0/nbe-blackstar-homeassistant/raw/master/pics/nbe_blackstar_plus.png" width=45% height=45%><img src="https://github.com/e1z0/nbe-blackstar-homeassistant/raw/master/pics/nbe1.png" width=45% height=45%>
 
 **Runs as service or as docker container**
 
