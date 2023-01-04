@@ -14,3 +14,7 @@ up:
 	COMPOSE_PROJECT_NAME=nbe COMPOSE_IGNORE_ORPHANS=True docker-compose -f docker-compose.yml up -d
 down:
 	COMPOSE_PROJECT_NAME=nbe COMPOSE_IGNORE_ORPHANS=True docker-compose -f docker-compose.yml down
+up_aarch64:
+	COMPOSE_PROJECT_NAME=nbe COMPOSE_IGNORE_ORPHANS=True docker-compose -f docker-compose_aarch64.yml up -d
+down_aarch64:
+	COMPOSE_PROJECT_NAME=nbe COMPOSE_IGNORE_ORPHANS=True docker-compose -f docker-compose_aarch64.ym down

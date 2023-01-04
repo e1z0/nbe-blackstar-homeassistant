@@ -29,9 +29,12 @@ If you don't know what model you are using, try to open pellet burner door and l
 # How to run?
 
 ```
-make up
+make up          # x86_64 Architecture (Intel/Amd)
+make up_aarch64  # ARM x64 Architecture (RaspberryPI, OrangePI, nVidia Jetson, Rockchip64 etc...)
 ```
 It will bring docker up, docker system must be already running on the host system. You can edit compose file for different options and set nbe serial and password.
+
+`docker-compose.yml` is for **x86_64** architecture and `docker-compose_aarch64.yml` is for **ARM x64** architecture.
 
 * **NBE Serial** can be found on system menu System > User account > Serial number on the controller
 * **NBE Password** can be found on the pallet burner phisically just open the door and look at the top, it should be written over there.

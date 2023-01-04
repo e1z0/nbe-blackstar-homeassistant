@@ -2,7 +2,7 @@ version: '3.0'
 services:
     nbe:
         container_name: nbe
-        image: nulldevil/nbe:latest
+        image: nulldevil/nbe:aarch64
         hostname: nbe
         restart: unless-stopped
         environment:
